@@ -1,0 +1,25 @@
+{
+  "name": "gulp-typings",
+  "version": "1.0.0",
+  "description": "wrap typings for use with gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "(npmts)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushrocks/gulp-typings.git"
+  },
+  "keywords": [
+    "typings"
+  ],
+  "author": "Lossless GmbH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pushrocks/gulp-typings/issues"
+  },
+  "homepage": "https://github.com/pushrocks/gulp-typings#readme",
+  "devDependencies": {
+    "npmts": "^2.2.3"
+  }
+}
