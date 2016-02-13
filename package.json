@@ -1,6 +1,6 @@
 {
   "name": "gulp-typings",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "wrap typings for use with gulp",
   "main": "index.js",
   "scripts": {
