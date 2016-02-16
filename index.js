@@ -8,7 +8,7 @@ var plugins = {
     typings: require("typings")
 };
 var forEach = function (file, enc, cb) {
-    plugins.typings.install({ production: false, cwd: plugins.path.parse(file.path).dir })
+    plugins.typings.install({ production: false, cwd: plugins.path.dirname(file.path) })
         .then(function () {
         cb(null, file);
     }, function () {
