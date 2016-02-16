@@ -20,6 +20,12 @@
   },
   "homepage": "https://github.com/pushrocks/gulp-typings#readme",
   "devDependencies": {
+    "gulp-function": "^1.1.1",
     "npmts": "^2.2.3"
+  },
+  "dependencies": {
+    "beautylog": "^2.1.1",
+    "through2": "^2.0.1",
+    "typings": "^0.6.8"
   }
 }
