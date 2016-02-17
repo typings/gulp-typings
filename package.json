@@ -2,7 +2,7 @@
   "name": "gulp-typings",
   "version": "1.0.7",
   "description": "wrap typings for use with gulp",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "(npmts)"
   },
@@ -27,6 +27,6 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-function": "^1.1.1",
-    "npmts": "^2.2.3"
+    "npmts": "^3.0.1"
   }
 }

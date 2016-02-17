@@ -1,8 +1,8 @@
-/// <reference path="./typings/main.d.ts" />
+/// <reference path="../ts/typings/main.d.ts" />
 var plugins = {
     gulp: require("gulp"),
     gulpFunction: require("gulp-function"),
-    gulpTypings: require("../index.js")
+    gulpTypings: require("../dist/index.js")
 };
 
 describe("gulp-typings",function(){
