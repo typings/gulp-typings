@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /// <reference path="../ts/typings/main.d.ts" />
 var plugins = {
     gulp: require("gulp"),

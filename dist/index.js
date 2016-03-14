@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 /// <reference path="./typings/main.d.ts" />
 var plugins = {
     beautylog: require("beautylog"),

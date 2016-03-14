@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/pushrocks/gulp-typings#readme",
   "dependencies": {
-    "beautylog": "^2.1.1",
+    "beautylog": "^3.1.2",
     "through2": "^2.0.1",
-    "typings": "^0.6.8"
+    "typings": "^0.7.8"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-function": "^1.1.1",
-    "npmts": "^3.0.1"
+    "npmts": "^3.4.1"
   }
 }
