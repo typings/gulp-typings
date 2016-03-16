@@ -1,12 +1,12 @@
 /// <reference path="./typings/main.d.ts" />
-var plugins = {
+let plugins = {
     beautylog: require("beautylog"),
     path: require("path"),
     through2: require("through2"),
     typingsCore: require("typings-core")
 };
 
-var forEach = function(file,enc,cb){
+let forEach = function(file,enc,cb){
     plugins.typingsCore.install({production: false, cwd: plugins.path.dirname(file.path)})
         .then(function(){
             cb(null,file);
@@ -16,7 +16,7 @@ var forEach = function(file,enc,cb){
         });
 };
 
-var atEnd = function(cb){
+let atEnd = function(cb){
     cb();
 };
 
