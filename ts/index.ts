@@ -20,6 +20,6 @@ var atEnd = function(cb){
     cb();
 };
 
-module.exports = function() {
+export = function() {
     return plugins.through2.obj(forEach,atEnd);
 };
