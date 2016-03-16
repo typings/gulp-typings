@@ -3,11 +3,11 @@ var plugins = {
     beautylog: require("beautylog"),
     path: require("path"),
     through2: require("through2"),
-    typings: require("typings")
+    typingsCore: require("typings-core")
 };
 
 var forEach = function(file,enc,cb){
-    plugins.typings.install({production: false, cwd: plugins.path.dirname(file.path)})
+    plugins.typingsCore.install({production: false, cwd: plugins.path.dirname(file.path)})
         .then(function(){
             cb(null,file);
         },function(){
