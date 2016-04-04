@@ -1,13 +1,13 @@
 /// <reference path="./typings/main.d.ts" />
-var plugins = {
+let plugins = {
     beautylog: require("beautylog"),
     path: require("path"),
     through2: require("through2"),
-    typings: require("typings")
+    typingsCore: require("typings-core")
 };
 
-var forEach = function(file,enc,cb){
-    plugins.typings.install({production: false, cwd: plugins.path.dirname(file.path)})
+let forEach = function(file,enc,cb){
+    plugins.typingsCore.install({production: false, cwd: plugins.path.dirname(file.path)})
         .then(function(){
             cb(null,file);
         },function(){
@@ -16,10 +16,10 @@ var forEach = function(file,enc,cb){
         });
 };
 
-var atEnd = function(cb){
+let atEnd = function(cb){
     cb();
 };
 
-module.exports = function() {
+export = function() {
     return plugins.through2.obj(forEach,atEnd);
 };
