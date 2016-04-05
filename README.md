@@ -1,5 +1,5 @@
 # gulp-typings
-gulp-typings allows you to install typings rom typings.json with gulp
+gulp-typings allows you to install typings from typings.json with gulp
 
 ## Status 
 [![Build Status](https://travis-ci.org/pushrocks/gulp-typings.svg?branch=master)](https://travis-ci.org/pushrocks/gulp-typings)
