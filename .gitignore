@@ -5,5 +5,5 @@ docs/
 
 ts/*.js
 ts/*.js.map
-typings/
+ts/typings/
 test/typings/

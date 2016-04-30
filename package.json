@@ -3,6 +3,7 @@
   "version": "1.3.4",
   "description": "wrap typings for use with gulp",
   "main": "dist/index.js",
+  "typings":"dist/index.d.ts",
   "scripts": {
     "test": "(npmts)"
   },
@@ -22,11 +23,11 @@
   "dependencies": {
     "beautylog": "^4.1.2",
     "through2": "^2.0.1",
-    "typings-core": "^0.2.16"
+    "typings-core": "^0.3.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-function": "^1.2.5",
-    "npmts": "^5.0.3"
+    "gulp-function": "^1.3.1",
+    "npmts": "^5.1.3"
   }
 }
