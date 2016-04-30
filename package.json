@@ -1,9 +1,9 @@
 {
   "name": "gulp-typings",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "description": "wrap typings for use with gulp",
   "main": "dist/index.js",
-  "typings":"dist/index.d.ts",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "test": "(npmts)"
   },
