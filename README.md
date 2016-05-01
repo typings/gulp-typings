@@ -14,7 +14,8 @@ var gulp = require("gulp");
 var gulpTypings = require("gulp-typings");
 
 gulp.task("installTypings",function(){
-    return gulp.src("./typings.json")
+    var stream = gulp.src("./typings.json")
         .pipe(gulpTypings()); //will install all typingsfiles in pipeline.
+    return stream; // by returning stream gulp can listen to events from the stream and knows when it is finished.
 });
 ```
