@@ -20,6 +20,6 @@ let atEnd = function(cb){
     cb();
 };
 
-export = function() {
+export = function(optionsArg?) {
     return plugins.through2.obj(forEach,atEnd);
 };

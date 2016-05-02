@@ -1,2 +1,2 @@
-declare var _default: () => any;
+declare var _default: (optionsArg?: any) => any;
 export = _default;
