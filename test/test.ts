@@ -1,4 +1,4 @@
-/// <reference path="./typings/main.d.ts" />
+/// <reference path="./typings/index.d.ts" />
 var plugins = {
     gulp: require("gulp"),
     gulpFunction: require("gulp-function"),
@@ -7,6 +7,7 @@ var plugins = {
 
 describe("gulp-typings",function(){
     it("should install typings",function(done){
+        this.timeout(10000);
         plugins.gulp.src("./test/typings.json")
             .pipe(plugins.gulpTypings())
             .pipe(plugins.gulpFunction(function(){

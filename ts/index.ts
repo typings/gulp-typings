@@ -1,10 +1,5 @@
-/// <reference path="./typings/main.d.ts" />
-let plugins = {
-    beautylog: require("beautylog"),
-    path: require("path"),
-    through2: require("through2"),
-    typingsCore: require("typings-core")
-};
+/// <reference path="./typings/index.d.ts" />
+import * as plugins from "./gulp-typings.plugins"
 
 let forEach = function(file,enc,cb){
     plugins.typingsCore.install({production: false, cwd: plugins.path.dirname(file.path)})
