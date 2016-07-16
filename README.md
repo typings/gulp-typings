@@ -2,9 +2,8 @@
 gulp-typings allows you to install typings from typings.json with gulp
 
 ## Status
-[![bitHound Code](https://www.bithound.io/github/pushrocks/gulp-typings/badges/code.svg)](https://www.bithound.io/github/pushrocks/gulp-typings)
-[![Dependency Status](https://david-dm.org/pushrocks/gulp-typings.svg)](https://david-dm.org/pushrocks/gulp-typings)
-[![codecov.io](https://codecov.io/github/pushrocks/gulp-typings/coverage.svg?branch=master)](https://codecov.io/github/pushrocks/gulp-typings?branch=master)
+[![bitHound Code](https://www.bithound.io/github/typings/gulp-typings/badges/code.svg)](https://www.bithound.io/github/pushrocks/gulp-typings)
+[![Dependency Status](https://david-dm.org/typings/gulp-typings.svg)](https://david-dm.org/pushrocks/gulp-typings)
 
 ## Usage
 
