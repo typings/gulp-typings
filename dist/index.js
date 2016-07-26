@@ -6,7 +6,7 @@ var forEach = function (file, enc, cb) {
         .then(function () {
         cb(null, file);
     }, function () {
-        plugins.beautylog.error("something went wrong: Check if path is correct: " + file.path.blue);
+        console.error("something went wrong: Check if path is correct: " + file.path);
         cb(null, file);
     });
 };
