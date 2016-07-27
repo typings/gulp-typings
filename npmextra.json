@@ -1,6 +1,11 @@
 {
     "npmts": {
         "mode": "default",
-        "coverageTrshold":"80"
+        "coverageTreshold":"80",
+        "target":"ES5"
+    },
+    "npmdocker":{
+        "baseImage":"hosttoday/ht-docker-node:npmts",
+        "command":"npm test"
     }
 }
