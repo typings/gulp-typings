@@ -2,7 +2,9 @@
     "npmts": {
         "mode": "default",
         "coverageTreshold":"80",
-        "target":"ES5"
+        "tsOptions":{
+            "target":"ES5"
+        }
     },
     "npmdocker":{
         "baseImage":"hosttoday/ht-docker-node:npmts",
