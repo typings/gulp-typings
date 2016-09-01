@@ -22,13 +22,13 @@
   "homepage": "https://github.com/pushrocks/gulp-typings#readme",
   "dependencies": {
     "through2": "^2.0.1",
-    "typings-core": "^1.4.0",
-    "typings-global": "^1.0.6"
+    "typings-core": "^1.4.1",
+    "typings-global": "^1.0.8"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-function": "^1.3.6",
-    "npmts-g": "^5.2.6",
-    "typings-test": "^1.0.1"
+    "npmts-g": "^5.2.8",
+    "typings-test": "^1.0.2"
   }
 }
