@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-function": "^2.2.0",
+    "gulp-function": "^2.2.2",
     "npmts-g": "^5.2.8",
     "typings-test": "^1.0.2"
   }
