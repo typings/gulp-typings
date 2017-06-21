@@ -23,7 +23,7 @@
   "dependencies": {
     "through2": "^2.0.1",
     "typings-core": "^2.0.0",
-    "typings-global": "^1.0.8"
+    "typings-global": "^1.0.19"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
